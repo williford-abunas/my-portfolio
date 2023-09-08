@@ -8,8 +8,9 @@ body {
 
 h1 {
   text-align: left;
-  font-size: 1.3em;
-  font-weight: 900px;
+  font-size: min(5vw, 1.2em);
+  text-align: center;
+  color: whitesmoke;
 }
 
 header {
