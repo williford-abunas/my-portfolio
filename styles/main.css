@@ -144,3 +144,20 @@ nav > ul > li > a:hover {
 .quote-mark {
   color: saddlebrown;
 }
+
+footer {
+  background-color: #2a2a40;
+  color: #dfdfe2;
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto 0;
+  padding: 0.6em 0;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1.2em;
+}
