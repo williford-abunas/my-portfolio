@@ -114,9 +114,25 @@ nav > ul > li > a:hover {
 
 .opening-quote {
   color: crimson;
-  font-size: 3.5rem;
+  font-size: 5rem;
   margin-top: 3em;
   padding: 0 auto;
   text-align: center;
   opacity: 0.7;
+}
+
+.main-quote {
+  padding-bottom: 0.5em;
+  opacity: 1;
+}
+
+.eng-quote {
+  padding-bottom: 0.5em;
+  font-size: 4rem;
+  opacity: 0.5;
+}
+
+#seneca {
+  font-size: 2rem;
+  color: #1b1b32;
 }
