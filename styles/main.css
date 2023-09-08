@@ -136,3 +136,7 @@ nav > ul > li > a:hover {
   font-size: 2rem;
   color: #1b1b32;
 }
+
+.quote-mark {
+  color: saddlebrown;
+}
