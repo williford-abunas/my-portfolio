@@ -48,8 +48,8 @@ nav > ul > li {
   font-size: min(5vw, 1.2em);
   color: whitesmoke;
   position: fixed;
-  left: 3em;
-  top: 6px;
+  left: 4em;
+  top: 0.9em;
 }
 
 nav > ul > li > a {
@@ -64,7 +64,7 @@ nav > ul > li > a:hover {
 }
 
 #logo {
-  height: 55px;
+  height: 68px;
 }
 
 .dropbtn {
