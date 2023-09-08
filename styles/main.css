@@ -94,6 +94,13 @@ nav > ul > li > a:hover {
   display: block;
 }
 
+.dropbtn:hover {
+  cursor: pointer;
+  color: #1b1b32;
+  background-color: #dfdfe2;
+  border-bottom: 3px solid teal;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
