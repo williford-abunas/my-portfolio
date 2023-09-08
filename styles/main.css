@@ -46,11 +46,15 @@ nav > ul > li {
   font-size: min(5vw, 1.2em);
   color: whitesmoke;
   position: fixed;
-  left: 5em;
-  top: 0;
+  left: 3em;
+  top: 6px;
 }
 
 nav > ul > li > a {
   color: #dfdfe2;
   text-decoration: none;
+}
+
+#logo {
+  height: 55px;
 }
