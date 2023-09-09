@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(112, 162, 162);
+  background-color: olivedrab;
 }
 
 header {
@@ -127,7 +127,7 @@ nav > ul > li > a:hover {
 
 .main-quote {
   padding-bottom: 0.5em;
-  opacity: 1;
+  text-shadow: 5px 5px 10px black;
 }
 
 .eng-quote {
@@ -160,11 +160,4 @@ footer {
   bottom: 0;
   left: 0;
   font-size: 1.2em;
-}
-
-.home-descripition {
-  position: fixed;
-  margin: auto;
-  padding: auto;
-  text-align: center;
 }
