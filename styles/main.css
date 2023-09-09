@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: olivedrab;
+  background-color: teal;
 }
 
 header {
@@ -160,4 +160,30 @@ footer {
   bottom: 0;
   left: 0;
   font-size: 1.2em;
+}
+
+.home-description {
+  position: absolute;
+  top: 65%;
+  font-size: 2em;
+  width: 100%;
+}
+
+.home-description1 {
+  text-align: left;
+  margin-left: 33%;
+  padding: 0.3em 0 0.3em 0.3em;
+  width: 7.5em;
+  border-radius: 10%;
+  color: wheat;
+  text-shadow: 5px 5px 10px black;
+}
+
+.home-description2 {
+  margin-left: 45%;
+  padding: 0.5em 0 0.3em 0.3em;
+  width: 12em;
+  border-radius: 10%;
+  color: wheat;
+  text-shadow: 5px 5px 10px black;
 }
