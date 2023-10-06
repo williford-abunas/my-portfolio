@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML & CSS Concepts</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" type="text/css" />
+    <script src="js/myScript.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <img
+          id="logo"
+          src="../assets/Coffee-cup-icon-on-transparent-background-PNG.png"
+        />
+        <h1 id="title">My Dev Academy Journey</h1>
+        <nav id="mainnav">
+          <ul class="navmenus">
+            <li><a class="navmenu" href="../index.html">About Me</a></li>
+            <li>
+              <a class="navmenu" href="../index.html#section2">Tech Blog</a>
+            </li>
+            <li>
+              <a class="navmenu" href="../index.html#section3">Core Blog</a>
+            </li>
+            <li>
+              <a class="navmenu" href="../index.html#section4">Other Stuff</a>
+            </li>
+            <li>
+              <a class="navmenu" href="../index.html#section5">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <h2>TECHNICAL BLOG</h2>
+        <h3>CSS Inline and Inline-block Display</h3>
+        <p>
+          See the images below? Clearly, the first clothesline to the left seems
+          out of space with clothes overlapping on top of each other while the
+          other clothesline has clothes evenly spaced around each other.
+          Probably, you are thinking what’s the matter? In real life, there’s
+          none but in web design, you probably want to make your display
+          seamless and you can start by learning
+          <em
+            >what is the difference between inline and inline-block display.</em
+          >
+        </p>
+        <figure>
+          <img class="small-img" src="../assets/inline.png" />
+          <figcaption>
+            <strong>Inline</strong> elements display in a line. This means that
+            they do not force elements after them to a new line and only takes
+            up as much width as its content. So, if you try to set any width and
+            height, it will have NO effects, hence, they overlap.
+          </figcaption>
+        </figure>
+
+        <figure>
+          <img class="small-img" src="../assets/inline-block.png" />
+          <figcaption>
+            <strong>Inline-block</strong> elements behaves like inline element
+            but you can set the width and height values so they won't overlap
+            just like the figure above.
+          </figcaption>
+        </figure>
+        <p>Let’s look at how it works in actual coding environment:</p>
+        <h4>display: inline</h4>
+        <p>
+          Let’s use the element span which has a default value of inline
+          display:
+        </p>
+        <img src="../assets/display-inline.png" />
+        <p>
+          Look how it ignored the width and the height set, it applied the
+          padding property but the top and bottom padding overlapped with other
+          existing elements.
+        </p>
+        <br />
+        <h4>display: iniline-block</h4>
+        <img src="../assets/display-inlineblock.png" />
+        <p>
+          Now, with the in-line block display, the elements follow the height
+          and width set as well as the padding without overlapping with other
+          existing elements.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
