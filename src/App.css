@@ -1,0 +1,279 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.h1-container h1::before {
+  content: '👋🏻 Hello friends! I am,';
+  display: block;
+  position: relative;
+  
+  left: 0;
+  top: 0;
+  font-size: 1rem;
+  font-weight: semibold;
+  color:rgba(255, 234, 0, 0.75);
+  font-family:'Kalam', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.home-social {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 12rem;
+  position: absolute;
+  bottom: 0;
+  right: 45px;
+}
+
+.home-social::after {
+  display: block;
+  content: "";
+  height: 11rem;
+  width: 1px;
+  background-color: rgba(255, 255, 255, 0.08);
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+}
+
+.home-social a {
+  color: white;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  
+}
+
+
+.home-social li {
+  position: relative;
+  height: 2.5rem;
+  
+}
+
+.home-social i, .home-social span {
+  position: absolute;
+  
+  top: 0;
+  line-height: 4rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  
+}
+
+.home-social i {
+  font-size: 1rem;
+  right: 0.40rem;
+  -webkit-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+ padding: 0;
+}
+
+.home-social span {
+  color: #71818e;
+  right: 2rem;
+  font-size: 0.75rem;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+
+.home-social li:hover span {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.home-social li:hover i {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+ 
+}
+
+.im-github:before {
+  content: url('src/assets/github-icon.svg');
+  
+}
+
+.im-linkedin:before {
+  content: url('src/assets/linkedin-icon.svg');
+}
+
+.scroll-down-arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
+  transform: translateX(-50%);
+  animation: bounce 1s infinite alternate ease-in-out;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 2rem;
+  color: yellow;
+  opacity: 50%;
+}
+
+/* About section */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9rem;
+  padding: 1rem;
+}
+
+#about > div {
+  margin-top: 1rem;
+}
+
+.profile-image {
+  width: 150px;
+  border-radius: 50%;
+  animation: bounce 1s infinite alternate;
+  background-color: rgba(219, 179, 2, 0.75);
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+/* Footer */
+ 
+#footer {
+  background: #111111;
+  min-height: 160px;
+}
+
+#footer a {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+#footer a:hover {
+  opacity: 0.6;
+}
+
+#footer .social {
+  margin: 0.9rem 0;
+  display: flex;
+  flex-direction: row;
+}
+
+#footer .social img {
+  width: 20px;
+  height: 20px;
+}
+
+#footer .social a {
+  margin: 0 0.5rem;
+}
+
+#footer p {
+  font-size: 0.8rem;
+}
+
+/* card */
+
+.thecard {
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+.thefront {
+  backface-visibility: hidden;
+  
+  color: #333;
+}
+
+
+
+.theback {
+  backface-visibility: hidden;
+  background: #a38e3b;
+  color: #333;
+  transform: rotateY(180deg);
+}
+
+/* Pop-up Video */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black overlay */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.popup-media {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001; /* Ensure it's above the overlay */
+  background: #000000;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.close-btn {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff; /* Color of the close button */
+}
+
+h4 {
+  -webkit-text-stroke: 1px rgb(0,0,0);
+}
+
+
+
+/* Responsiveness */
+
+@media (min-width: 768px) {
+  .h1-container h1::before {
+    font-size: 1.5rem;
+  }
+
+  .scroll-down-arrow {
+    left:50%;
+  }
+
+  .project {
+    -webkit-text-fill-color: white; /* Safari/Chrome */
+    -webkit-text-stroke: 3px rgb(0, 0, 0); /* Safari/Chrome */
+  }
+
+  .close-btn {
+    font-size: 48px;
+    right: 40px;
+  }
+}
