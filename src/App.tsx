@@ -34,7 +34,7 @@ function App() {
             aria-roledescription="button"
           >
             <a
-              href="/cv.pdf"
+              href="./cv.pdf"
               className="button w-full text-center"
               target="_blank"
               rel="noopener noreferrer"
