@@ -103,7 +103,9 @@ function Project() {
                       className="object-cover w-full h-full"
                     />
                     <div className="absolute top-0 left-0 right-0 p-2">
-                      <h4 className="text-l font-bold">{el.title}</h4>
+                      <h4 className="text-l font-semibold text-black">
+                        {el.title}
+                      </h4>
                     </div>
                     <div className="absolute bottom-0 left-0 right-0 p-2 bg-black opacity-70">
                       <p className="text-yellow-500 text-sm opacity-100">
