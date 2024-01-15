@@ -103,17 +103,17 @@ function Project() {
                       className="object-cover w-full h-full"
                     />
                     <div className="absolute top-0 left-0 right-0 p-2">
-                      <h4 className="text-xl font-bold text-yellow-500 uppercase">
-                        {el.title}
-                      </h4>
+                      <h4 className="text-l font-bold">{el.title}</h4>
                     </div>
-                    <div className="absolute bottom-0 left-0 right-0 p-4">
-                      <p className="text-yellow-500 text-sm">{el.tech}</p>
+                    <div className="absolute bottom-0 left-0 right-0 p-2 bg-black opacity-70">
+                      <p className="text-yellow-500 text-sm opacity-100">
+                        {el.tech}
+                      </p>
                     </div>
                   </div>
                 </div>
 
-                <div className="theback absolute w-fit md:w-full h-full rounded-md p-4 border-4 border-black inline-flex flex-col items-center">
+                <div className="theback absolute w-fit md:w-full h-full rounded-md p-1 md:p-4 border-4 border-black inline-flex flex-col items-center">
                   <div className="text-sm md:text-md md:font-semibold">
                     {el.description}
                   </div>

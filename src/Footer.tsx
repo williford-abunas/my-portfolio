@@ -19,10 +19,18 @@ const Footer = () => {
           0226332514 | abunaswilliford@gmail.com
         </p>
         <div className="social flex justify-center">
-          <a href="#" target="_blank" title="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/williford-abunas-09ba96115"
+            target="_blank"
+            title="LinkedIn"
+          >
             <img src="src/assets/linkedin-icon.svg" alt="Linkedin" />
           </a>
-          <a href="#" target="_blank" title="Github">
+          <a
+            href="https://github.com/williford-abunas"
+            target="_blank"
+            title="Github"
+          >
             <img src="src/assets/github-icon.svg" alt="GitHub" />
           </a>
           <a
