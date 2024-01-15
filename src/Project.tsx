@@ -98,7 +98,7 @@ function Project() {
                 <div className="thefront absolute w-full h-full rounded-md p-0 border-4 border-black">
                   <div className="relative w-full h-full">
                     <img
-                      src={`./assets/${el.title}.png`}
+                      src={`./${el.title}.png`}
                       alt={el.title}
                       className="object-cover w-full h-full"
                     />

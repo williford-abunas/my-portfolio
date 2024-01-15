@@ -24,14 +24,14 @@ const Footer = () => {
             target="_blank"
             title="LinkedIn"
           >
-            <img src="src/assets/linkedin-icon.svg" alt="Linkedin" />
+            <img src="./linkedin-icon.svg" alt="Linkedin" />
           </a>
           <a
             href="https://github.com/williford-abunas"
             target="_blank"
             title="Github"
           >
-            <img src="src/assets/github-icon.svg" alt="GitHub" />
+            <img src="./github-icon.svg" alt="GitHub" />
           </a>
           <a
             href={`mailto: abunaswilliford@gmail.com`}
@@ -39,7 +39,7 @@ const Footer = () => {
             title="abunaswilliford@gmail.com"
           >
             <img
-              src="src/assets/icons8-composing-mail-50 (1).png"
+              src="./icons8-composing-mail-50 (1).png"
               alt="email-abunaswilliford@gmail.com"
             />
           </a>
