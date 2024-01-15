@@ -101,18 +101,18 @@ html {
 }
 
 .im-github:before {
-  content: url('./github-icon.svg'); 
+  content: url('../github-icon.svg'); 
   
 }
 
 .im-linkedin:before {
-  content: url('./linkedin-icon.svg');
+  content: url('../linkedin-icon.svg');
 }
 
 .scroll-down-arrow {
   position: absolute;
   bottom: 20px;
-  left: 40%;
+  left: 37%;
   transform: translateX(-50%);
   animation: bounce 1s infinite alternate ease-in-out;
   cursor: pointer;
