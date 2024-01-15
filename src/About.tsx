@@ -5,7 +5,7 @@ function About() {
     <section className="min-h-screen max-h-full bg-white" id="about">
       <img
         className="profile-image"
-        src="src/assets/myAvatar (1).svg"
+        src="./assets/myAvatar (1).svg"
         alt="profile-image"
       />
       <h1 className="font-bold md:text-2xl mt-2 font-body">

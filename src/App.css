@@ -101,12 +101,12 @@ html {
 }
 
 .im-github:before {
-  content: url('src/assets/github-icon.svg');
+  content: url('./assets/github-icon.svg');
   
 }
 
 .im-linkedin:before {
-  content: url('src/assets/linkedin-icon.svg');
+  content: url('./assets/linkedin-icon.svg');
 }
 
 .scroll-down-arrow {
