@@ -15,8 +15,6 @@ html {
   font-family:'Kalam', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 .home-social {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   list-style: none;
@@ -42,14 +40,11 @@ html {
   color: white;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
-  
 }
-
 
 .home-social li {
   position: relative;
   height: 2.5rem;
-  
 }
 
 .home-social i, .home-social span {
@@ -97,16 +92,15 @@ html {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
- 
 }
 
 .im-github:before {
-  content: url('./github-icon.svg'); 
+  content: url('../github-icon.svg'); 
   
 }
 
 .im-linkedin:before {
-  content: url('./linkedin-icon.svg');
+  content: url('../linkedin-icon.svg');
 }
 
 .scroll-down-arrow {
