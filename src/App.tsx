@@ -7,6 +7,8 @@ import Project from './Project'
 import Footer from './Footer'
 import addSmoothScrolling from '../utils/utils'
 
+import Test from './Test'
+
 function App() {
   useEffect(() => {
     addSmoothScrolling()
@@ -78,6 +80,7 @@ function App() {
         </header>
       </div>
       <About />
+      <Test />
       <Project />
       <Footer />
     </>
