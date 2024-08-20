@@ -123,7 +123,7 @@ function Project() {
                     onClick={() => openPopup(el.video)}
                     className="bg-black text-white p-1 rounded-md mt-2 w-36 text-sm hover:opacity-75"
                   >
-                    open demo video/live website
+                    open video/live website
                   </button>
                   <button className="bg-black text-white p-1 rounded-md mt-2 w-36 text-sm hover:opacity-75">
                     <a href={el.code} target="_blank">
